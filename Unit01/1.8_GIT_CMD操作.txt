@@ -1,0 +1,358 @@
+
+C:\Users\504>git version
+git version 2.28.0.windows.1
+
+C:\Users\504>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/javaStudyMertial/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+user.name=WZC
+user.email=21925073@zju.edu.cn
+
+C:\Users\504>git config --global user.name"WZC"
+
+C:\Users\504>git config --global user.email "21925196@zju.edu.cn"
+
+C:\Users\504>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/javaStudyMertial/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+user.name=WZC
+user.email=21925196@zju.edu.cn
+
+C:\Users\504>cd :D:\javaStudyMertial\newcoderCommunity\community
+文件名、目录名或卷标语法不正确。
+
+C:\Users\504>d:
+
+D:\>cd:D:\javaStudyMertial\newcoderCommunity\community
+文件名、目录名或卷标语法不正确。
+
+D:\>\javaStudyMertial\newcoderCommunity\community
+'\javaStudyMertial\newcoderCommunity\community' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+D:\>cd: d:\javaStudyMertial\newcoderCommunity\community
+文件名、目录名或卷标语法不正确。
+
+D:\>cd d:\javaStudyMertial\newcoderCommunity\community
+
+d:\javaStudyMertial\newcoderCommunity\community>git init
+Initialized empty Git repository in D:/javaStudyMertial/newcoderCommunity/community/.git/
+
+d:\javaStudyMertial\newcoderCommunity\community>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        .mvn/
+        src/
+        target/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+d:\javaStudyMertial\newcoderCommunity\community>git add *
+warning: LF will be replaced by CRLF in .idea/workspace.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .mvn/wrapper/MavenWrapperDownloader.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/nowcoder/community/CommunityApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/nowcoder/community/CommunityApplicationTests.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/classes/application.properties.
+The file will have its original line endings in your working directory
+
+d:\javaStudyMertial\newcoderCommunity\community>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/compiler.xml
+        new file:   .idea/encodings.xml
+        new file:   .idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
+        new file:   .idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
+        new file:   .idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml
+        new file:   .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml
+        new file:   .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml
+        new file:   .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml
+        new file:   .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml
+        new file:   .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml
+        new file:   .idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml
+        new file:   .idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml
+        new file:   .idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml
+        new file:   .idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml
+        new file:   .idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml
+        new file:   .idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml
+        new file:   .idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml
+        new file:   .idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml
+        new file:   .idea/libraries/Maven__junit_junit_4_12.xml
+        new file:   .idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml
+        new file:   .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml
+        new file:   .idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml
+        new file:   .idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml
+        new file:   .idea/libraries/Maven__net_minidev_json_smart_2_3.xml
+        new file:   .idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml
+        new file:   .idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml
+        new file:   .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml
+        new file:   .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml
+        new file:   .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml
+        new file:   .idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml
+        new file:   .idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml
+        new file:   .idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+        new file:   .idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml
+        new file:   .idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml
+        new file:   .idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml
+        new file:   .idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml
+        new file:   .idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml
+        new file:   .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml
+        new file:   .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml
+        new file:   .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml
+        new file:   .idea/libraries/Maven__org_objenesis_objenesis_2_6.xml
+        new file:   .idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml
+        new file:   .idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml
+        new file:   .idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml
+        new file:   .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml
+        new file:   .idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml
+        new file:   .idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/workspace.xml
+        new file:   .mvn/wrapper/MavenWrapperDownloader.java
+        new file:   .mvn/wrapper/maven-wrapper.jar
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   src/main/java/com/nowcoder/community/CommunityApplication.java
+        new file:   src/main/java/com/nowcoder/community/controller/AlphaController.java
+        new file:   src/main/resources/application.properties
+        new file:   src/main/resources/mapper/user-mapper.xml
+        new file:   src/main/resources/static/html/student.html
+        new file:   src/main/resources/templates/demo/view.html
+        new file:   src/test/java/com/nowcoder/community/CommunityApplicationTests.java
+        new file:   target/classes/META-INF/community.kotlin_module
+        new file:   target/classes/application.properties
+        new file:   target/classes/com/nowcoder/community/CommunityApplication.class
+        new file:   target/classes/com/nowcoder/community/controller/AlphaController.class
+        new file:   target/classes/mapper/user-mapper.xml
+        new file:   target/classes/static/html/student.html
+        new file:   target/classes/templates/demo/view.html
+        new file:   target/test-classes/com/nowcoder/community/CommunityApplicationTests.class
+
+
+d:\javaStudyMertial\newcoderCommunity\community>git commit -m 'Test11'
+[master (root-commit) a8429d7] 'Test11'
+ 98 files changed, 1489 insertions(+)
+ create mode 100644 .idea/compiler.xml
+ create mode 100644 .idea/encodings.xml
+ create mode 100644 .idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
+ create mode 100644 .idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
+ create mode 100644 .idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml
+ create mode 100644 .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml
+ create mode 100644 .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml
+ create mode 100644 .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml
+ create mode 100644 .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml
+ create mode 100644 .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml
+ create mode 100644 .idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml
+ create mode 100644 .idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml
+ create mode 100644 .idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml
+ create mode 100644 .idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml
+ create mode 100644 .idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml
+ create mode 100644 .idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml
+ create mode 100644 .idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml
+ create mode 100644 .idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml
+ create mode 100644 .idea/libraries/Maven__junit_junit_4_12.xml
+ create mode 100644 .idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml
+ create mode 100644 .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml
+ create mode 100644 .idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml
+ create mode 100644 .idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml
+ create mode 100644 .idea/libraries/Maven__net_minidev_json_smart_2_3.xml
+ create mode 100644 .idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml
+ create mode 100644 .idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml
+ create mode 100644 .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml
+ create mode 100644 .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml
+ create mode 100644 .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml
+ create mode 100644 .idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml
+ create mode 100644 .idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml
+ create mode 100644 .idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+ create mode 100644 .idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml
+ create mode 100644 .idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml
+ create mode 100644 .idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml
+ create mode 100644 .idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml
+ create mode 100644 .idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml
+ create mode 100644 .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml
+ create mode 100644 .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml
+ create mode 100644 .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml
+ create mode 100644 .idea/libraries/Maven__org_objenesis_objenesis_2_6.xml
+ create mode 100644 .idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml
+ create mode 100644 .idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml
+ create mode 100644 .idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml
+ create mode 100644 .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml
+ create mode 100644 .idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml
+ create mode 100644 .idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/workspace.xml
+ create mode 100644 .mvn/wrapper/MavenWrapperDownloader.java
+ create mode 100644 .mvn/wrapper/maven-wrapper.jar
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 src/main/java/com/nowcoder/community/CommunityApplication.java
+ create mode 100644 src/main/java/com/nowcoder/community/controller/AlphaController.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/main/resources/mapper/user-mapper.xml
+ create mode 100644 src/main/resources/static/html/student.html
+ create mode 100644 src/main/resources/templates/demo/view.html
+ create mode 100644 src/test/java/com/nowcoder/community/CommunityApplicationTests.java
+ create mode 100644 target/classes/META-INF/community.kotlin_module
+ create mode 100644 target/classes/application.properties
+ create mode 100644 target/classes/com/nowcoder/community/CommunityApplication.class
+ create mode 100644 target/classes/com/nowcoder/community/controller/AlphaController.class
+ create mode 100644 target/classes/mapper/user-mapper.xml
+ create mode 100644 target/classes/static/html/student.html
+ create mode 100644 target/classes/templates/demo/view.html
+ create mode 100644 target/test-classes/com/nowcoder/community/CommunityApplicationTests.class
+
+d:\javaStudyMertial\newcoderCommunity\community>git status
+On branch master
+nothing to commit, working tree clean
+
+d:\javaStudyMertial\newcoderCommunity\community>ssh-keygen -t rsa -C"21925196@zju.edu.cn"
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\504/.ssh/id_rsa):
+C:\Users\504/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+
+d:\javaStudyMertial\newcoderCommunity\community>y
+'y' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+d:\javaStudyMertial\newcoderCommunity\community>ssh-keygen -t rsa -C"21925196@zju.edu.cn"
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\504/.ssh/id_rsa):
+C:\Users\504/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\504/.ssh/id_rsa.
+Your public key has been saved in C:\Users\504/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:1q1UQJt3vjkMNDClYOKbndjAAggp6DBBFq+cYFvYhb4 21925196@zju.edu.cn
+The key's randomart image is:
++---[RSA 2048]----+
+|*Bo ... o.=..    |
+|O +o.o o . B     |
+|=+.+. +   + = .  |
+|+.=. . B o = +   |
+| =  . + S o o .  |
+|   E   . . . o o |
+|          .   =  |
+|               . |
+|                 |
++----[SHA256]-----+
+
+d:\javaStudyMertial\newcoderCommunity\community>git remote add origin https://git.nowcoder.com/610269342/WZC_DEMO01.git
+
+d:\javaStudyMertial\newcoderCommunity\community>git push -u origin master
+Enumerating objects: 129, done.
+Counting objects: 100% (129/129), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (108/108), done.
+Writing objects: 100% (129/129), 59.33 KiB | 2.70 MiB/s, done.
+Total 129 (delta 62), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (62/62), done.
+remote: fatal: ambiguous argument 'HEAD..a8429d7695cd65b34f648f0517ae8cd0521f5576': unknown revision or path not in the working tree.
+remote: Use '--' to separate paths from revisions, like this:
+remote: 'git <command> [<revision>...] -- [<file>...]'
+remote: fatal: ambiguous argument 'HEAD..a8429d7695cd65b34f648f0517ae8cd0521f5576': unknown revision or path not in the working tree.
+remote: Use '--' to separate paths from revisions, like this:
+remote: 'git <command> [<revision>...] -- [<file>...]'
+To https://git.nowcoder.com/610269342/WZC_DEMO01.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+d:\javaStudyMertial\newcoderCommunity\community>
